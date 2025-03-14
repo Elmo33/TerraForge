@@ -1,5 +1,5 @@
 """
-TerraGen: A library for generating and manipulating Terraform configurations in HCL.
+TerraForge: A library for generating and manipulating Terraform configurations in HCL.
 """
 
 __version__ = "0.1.0"

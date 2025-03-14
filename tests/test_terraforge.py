@@ -1,8 +1,8 @@
 import os
 import tempfile
 import unittest
-from terragen import HCLExpression, HCLBlock, TerraformConfig
-from terragen.utils import render_value, is_simple_scalar
+from terraforge import HCLExpression, HCLBlock, TerraformConfig
+from terraforge.utils import render_value, is_simple_scalar
 
 class TestHCLExpression(unittest.TestCase):
     def test_str(self):

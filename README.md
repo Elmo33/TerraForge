@@ -1,7 +1,7 @@
 
-# TerraGen
+# TerraForge
 
-TerraGen is a Python library for generating and manipulating Terraform configurations in HCL format. It provides an intuitive, programmatic interface to create and manage Terraform files, making it easier to build, modify, and maintain infrastructure-as-code configurations.
+TerraForge is a Python library for generating and manipulating Terraform configurations in HCL format. It provides an intuitive, programmatic interface to create and manage Terraform files, making it easier to build, modify, and maintain infrastructure-as-code configurations.
 
 ## Features
 
@@ -11,21 +11,21 @@ TerraGen is a Python library for generating and manipulating Terraform configura
 
 ## Installation
 
-TerraGen is available on PyPI. You can install it using pip:
+TerraForge is available on PyPI. You can install it using pip:
 
 ```bash
-pip install terragen
+pip install terraforge
 ```
 
 Alternatively, install it from source:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/terragen.git
+    git clone https://github.com/yourusername/terraforge.git
     ```
 2. Change to the project directory:
     ```bash
-    cd terragen
+    cd terraforge
     ```
 3. Install the package:
     ```bash
@@ -34,10 +34,10 @@ Alternatively, install it from source:
 
 ## Usage
 
-Here is a simple example that demonstrates how to create a Terraform configuration with TerraGen:
+Here is a simple example that demonstrates how to create a Terraform configuration with TerraForge:
 
 ```python
-from terragen import TerraformConfig
+from terraforge import TerraformConfig
 
 # Create a new Terraform configuration
 config = TerraformConfig()
@@ -107,7 +107,7 @@ This command will discover and run all tests located in the `tests/` directory.
 ## Contributing
 
 Contributions are welcome! If you have suggestions or improvements:
-- Open an issue or submit a pull request on [GitHub](https://github.com/yourusername/terragen).
+- Open an issue or submit a pull request on [GitHub](https://github.com/yourusername/terraforge).
 - Follow [PEP 8](https://www.python.org/dev/peps/pep-0008/) style guidelines.
 - Include tests for any new features or bug fixes.
 
