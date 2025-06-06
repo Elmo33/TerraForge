@@ -4,6 +4,6 @@ TerraForge: A library for generating and manipulating Terraform configurations i
 
 __version__ = "0.1.0"
 
-from .core import HCLExpression, HCLBlock, TerraformConfig
+from .core import HCLExpression, HCLBlock, TerraformConfig, HCLBlockDef
 
-__all__ = ["HCLExpression", "HCLBlock", "TerraformConfig"]
+__all__ = ["HCLExpression", "HCLBlock", "TerraformConfig", "HCLBlockDef"]
