@@ -3,7 +3,7 @@
 def is_simple_scalar(value):
     """Return True if value is a scalar that should be rendered inline."""
     from .core import HCLExpression
-    return isinstance(value, (HCLExpression, int, float, bool, str))
+    return isinstance(value, (HCLExpression, int, float, bool, str)) or value is None
 
 def render_value(value, indent=0):
     """
@@ -15,6 +15,8 @@ def render_value(value, indent=0):
     from .core import HCLExpression  # local import to avoid circular dependency
     if isinstance(value, HCLExpression):
         return value.expression
+    elif value is None:
+        return "null"
     elif isinstance(value, str):
         # Normal strings are quoted
         return f'"{value}"'
